@@ -4,7 +4,22 @@ Created on Sun Nov  2 13:24:26 2014
 
 @author: kobrien
 """
+"""
+DNSC6211 Group Project
 
+This program loads various data sources into a database, creates a linked to table for the
+datasources, and creates views to be used by the R Shiny User Interface program
+
+The various datasources are:
+    Crime Statistics for Department of Justice
+    Places, latitude, longitude from Census
+    Weather - average temperatures
+    Per Diem Rates from gsa.gov
+    Public Transportation 
+    Airport Codes
+    
+    
+"""
 import urlparse
 import urllib2
 from bs4 import BeautifulSoup
